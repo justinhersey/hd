@@ -1,0 +1,35 @@
+*{
+			margin:0;
+			padding:0;
+			font:60px "Gotham Black", Arial, sans-serif;
+			color:#FFF;
+		}
+		img{
+			border:none;
+		}
+		body {
+			overflow:hidden;/*Needed to eliminate scrollbars*/
+		}
+		#content{
+			margin:0px auto;
+			height:100px;
+			width:100%;
+			bottom:5%;
+			background-color:#262626;
+			border-top:3px solid #4F4F4F;
+			border-bottom:3px solid #4F4F4F;
+			position:absolute;
+		}
+		#contentframe{
+			text-align:center;
+		}
+		
+		/*Supersize Plugin Styles*/
+		#supersize img, #supersize a{
+			height:100%;
+			width:100%;
+			display:none;
+		}
+		#supersize .activeslide, #supersize .activeslide img{
+			display:inline;
+		}
